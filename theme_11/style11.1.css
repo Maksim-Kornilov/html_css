@@ -1,6 +1,19 @@
-#red_square {
-	width: 200px;
-	height: 200px;
-	border: 1px solid red;
-	margin: 50px;
+#menu1 {
+	font-family: Arial;
+	font-size: 10pt;
+	color: blue;
+}
+
+#menu1 a:link, #menu1 a:visited {
+	color : blue;
+	text-decoration : none;
+}
+
+#menu1 a:hover {
+	color : red;
+	text-decoration: underline;
+}
+
+#menu1 li {
+	margin-bottom: 2px;
 }
