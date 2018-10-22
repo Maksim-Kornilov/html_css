@@ -1,0 +1,33 @@
+#menu1 {
+	font-family: Arial;
+	font-size: 10pt;
+	color: blue;
+	width: 200px;
+}
+
+#menu1 a {
+	display : block;
+}
+
+#menu1 a:link, #menu1 a:visited {
+	color : blue;
+	text-decoration : none;
+}
+
+#menu1 a:hover {
+	color : blue;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+#menu1 li {
+	margin-bottom: 5px;
+	list-style-type: none;
+	border: 1px solid blue;
+	line-height: 30.77px; 
+}
+
+#menu1 ul {
+		padding-inline-start: 0px;
+}
