@@ -1,0 +1,46 @@
+#menu1 {
+	font-family: Arial;
+	font-size: 10pt;
+	width: 200px;
+	font-weight: bold;
+}
+
+#menu1 a {
+	display : block;
+	
+}
+
+#menu1 span {	
+	margin : 0px 10px 0px 5px;
+	display : block;
+}
+
+#menu1 a:link, #menu1 a:visited{
+	color : white;
+	text-decoration : none;
+	background-color: SteelBlue ;
+}
+
+#menu1 a:hover span, #menu1 a.active span{
+	background: transparent url("plane.png") no-repeat right center;
+}
+
+#menu1 a:hover, #menu1 a.active {
+	color : blue;
+	background: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#menu1 li {
+	margin-bottom: 5px;
+	list-style-type: none;
+	border: 1px solid SteelBlue;
+	line-height: 30.77px; 
+	
+	
+}
+
+#menu1 ul {
+		padding-inline-start: 0px;
+}
