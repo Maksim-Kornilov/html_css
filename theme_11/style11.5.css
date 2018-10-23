@@ -1,0 +1,31 @@
+#menu1 {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+#menu1 a:link, #menu1 a:visited{
+	color : blue;
+	text-decoration : none;
+	background-color: white ;
+}
+
+#menu1 a:hover, #menu1 a.active {
+	color : red;
+	background-color: white;
+	text-decoration: none;
+}
+
+#menu1 li {
+	list-style-type: none;
+	border: 1px solid darkblue;
+	float: left;	
+	margin-right: 5px;
+	padding: 5px;
+}
+
+#menu1 ul {
+		padding-inline-start: 0px;
+		margin: 0px;
+}
+
+/* почему-то менюшка к верху окна браузера прижимается на другое расстояние, чем в примере*/
