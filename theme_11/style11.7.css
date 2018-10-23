@@ -1,0 +1,78 @@
+#menu1 {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+#menu1 a {
+	display : block;
+	padding-top: 35px;
+	color : blue;
+	text-decoration : none;
+	min-width : 60px;
+	text-align : center;
+}
+
+#menu1 a:link, #menu1 a:visited {
+	color : gray;
+}
+
+#menu1 a:hover {
+	color : blue;
+}
+
+#ref1 a:link, #ref1 a:visited {
+	background: white url("task7_img/1.png") no-repeat center top;
+}
+
+#ref2 a:link, #ref2 a:visited {
+	background: white url("task7_img/2.png") no-repeat center top;
+}
+
+#ref3 a:link, #ref3 a:visited {
+	background: white url("task7_img/3.png") no-repeat center top;
+}
+
+#ref4 a:link, #ref4 a:visited {
+	background: white url("task7_img/4.png") no-repeat center top;
+}
+
+#ref5 a:link, #ref5 a:visited {
+	background: white url("task7_img/5.png") no-repeat center top;
+}
+
+
+#ref1 a:hover {
+	background: white url("task7_img/1-h.png") no-repeat center top;
+}
+
+#ref2 a:hover {
+	background: white url("task7_img/2-h.png") no-repeat center top;
+}
+
+#ref3 a:hover {
+	background: white url("task7_img/3-h.png") no-repeat center top;
+}
+
+#ref4 a:hover {
+	background: white url("task7_img/4-h.png") no-repeat center top;
+}
+
+#ref5 a:hover {
+	background: white url("task7_img/5-h.png") no-repeat center top;
+}
+
+#menu1 li {
+	list-style-type: none;
+	border: 0px solid darkblue;
+	margin-right: 13px;
+	display : inline-block;
+}
+
+#menu1 ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix {
+	clear : both;
+}
