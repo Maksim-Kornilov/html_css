@@ -1,0 +1,36 @@
+#menu1 ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu1 {
+	font-family: Arial;
+	font-size: 16px;
+	background-color : orange;
+	padding-left : 15px;
+}
+
+#menu1 a {
+	display : block;
+	padding: 12px 15px;
+	color : white;
+	text-decoration : none;
+	border : 0px solid red;
+}
+
+#menu1 a:link, #menu1 a:visited {
+	color : white;
+}
+
+#menu1 a:hover {
+	color : white;
+	background : red;
+}
+
+#menu1 li {
+	list-style-type: none;
+	border: 0px solid darkblue;
+	margin-right: 5px;
+	display : inline-block;
+}
+
