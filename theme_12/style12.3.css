@@ -1,13 +1,13 @@
-#main_div {
-	
-}
-
 div {
 	width: 690px;
-	margin: 0px auto 20px auto;
+	margin: 0px auto 15px auto;
 	padding : 0px 20px;
 	text-align : justify;
 	border : 1px solid gray;
+}
+
+#main_div {
+	margin : 0px auto 0px auto;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h2 {
 	font-family: Times New Roman;
 	font-size: 24px;
 	color: deeppink;
-	margin : 0px 0px 15px 0px;
+	margin : 5px 0px 15px 0px;
 	text-align : center;
 }
 
@@ -47,7 +47,8 @@ a:hover {
 }
 
 div.more_link {
-	/* border : none; */
+	border : none;	
+	line-height : 20px;
 }
 
 
@@ -55,13 +56,12 @@ div.more_link a:link, div.more_link a:visited {
 	display : block;
 	font-size : 13px;
 	text-align : center;
-	border : none;
+	border : 1px solid transparent;
 	font-family : Arial;
 	border-radius : 5px;
 	color : deeppink;
 	width : 100px;
 	margin : 0px 0px 0px 555px;
-	line-height : 20px;
 	background-color : white;
 
 }
@@ -76,7 +76,6 @@ div.more_link a:hover {
 	color : white;
 	width : 100px;
 	margin : 0px 0px 0px 555px;
-	line-height : 20px;
 	background-color : deeppink;
 	text-decoration : none;
 }
