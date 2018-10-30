@@ -1,0 +1,66 @@
+div {
+	width: 680px;
+	margin: 50px auto 0px auto;
+	padding : 0px 0px;
+	border : 1px solid gray;
+	background : white;
+	text-align : justify;
+	padding : 0px 10px;
+}
+
+h1 {
+	text-align : center;
+}
+
+div ul {
+	padding : 0px;	
+	margin : 0px;
+	background-color : #404040;
+	
+}
+
+div ul li {
+	list-style-type : none;
+	margin : 0px;
+	padding : 0px;
+	display : inline-block;
+	margin-right : 5px;
+}
+
+ul li a {
+	text-decoration : none;
+	/* border : 1px solid red; */
+	display : block;
+	margin : 0px;
+	padding : 5px 5px;
+	text-align : center;
+	color : white;
+	font-weight : bold;
+	background-color : #404040;
+	font-family : Arial;
+	font-size : 13px;
+}
+
+ul li a:link, #div_hut ul li a:visited  {
+	background-color : #404040;
+	color : white;
+}
+
+ul li a:hover {
+	background-color : white;
+	color : #404040;	
+}
+
+#div_main p a:link, #div_main p a:visited {
+	color : blue;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+#div_main p a:hover {
+	color : green;
+	font-weight : bold;
+	text-decoration : underline;
+}
+
+
