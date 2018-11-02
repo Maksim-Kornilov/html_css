@@ -5,7 +5,11 @@ div {
 	border : 1px solid gray;
 	background : white;
 	text-align : justify;
+}
+
+div p {
 	padding : 0px 10px;
+	text-align : justify;
 }
 
 h1 {
@@ -16,7 +20,6 @@ div ul {
 	padding : 0px;	
 	margin : 0px;
 	background-color : #404040;
-	
 }
 
 div ul li {
@@ -29,7 +32,6 @@ div ul li {
 
 ul li a {
 	text-decoration : none;
-	/* border : 1px solid red; */
 	display : block;
 	margin : 0px;
 	padding : 5px 5px;
