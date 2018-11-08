@@ -1,0 +1,38 @@
+div {
+	width: 700px;
+	border: 1px solid blue;
+	margin: 0px auto;
+}
+
+div ul {
+	display : flex;
+	flex-directin : row;
+	justify-content : space-between;
+	padding : 0px;
+	margin : 0px;
+	background : dodgerblue;
+}
+
+
+div ul li {
+	list-style-type : none;
+}
+
+div ul li a {
+	display : block;
+	padding : 10px;
+	color : white;
+	text-decoration : none;
+}
+
+a:link, a:visited {
+	color : white;
+	background : dodgerblue;
+}
+
+a:hover {
+	color : dodgerblue;
+	background : white;
+}
+
+
