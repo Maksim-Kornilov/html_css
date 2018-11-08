@@ -1,0 +1,100 @@
+body {
+	margin : 0px 0px;
+}
+
+div {
+	width : 900px;
+	min-width : 60%;
+	margin: 0px auto 0px auto;
+	border : 1px solid chocolate;
+	padding : 0px 0px 0px 0px;
+}
+
+div ul li {
+	border : 0px solid red;
+	display : inline-block;
+}
+
+div ul li a {
+	display : block;
+	padding : 15px 20px;
+	font-family : Arial;
+	font-size : 13px;
+	font-weight : bold;
+}
+
+div ul li a:link, div ul li a:visited {
+	color : white;
+	background : darkorange;
+}
+
+div ul {
+	padding : 0px;
+	margin : 0px;
+	background : darkorange;
+}
+
+div p {
+	text-align : justify;
+	font-size : 17px;
+	font-family : Times New Roman;
+	color : Peru;
+	text-indent : 40px;
+	line-height : 30px;
+	margin : 0px 10px;
+}
+
+h1, h2 {
+	color : sienna;
+	text-align : center;
+}
+
+div ul li a:link, div ul li a:visited {
+	color : white;
+	text-decoration : none;
+}
+
+div ul li a:hover, div ul li.active a {
+	color : darkorange;
+	text-decoration : none;
+	background : white;
+}
+
+#footer {
+	border : none;
+	text-align : center;
+}
+
+#footer ul {
+	color : sienna;
+	background : white;
+	font-size : 13px;
+	font-weight : bold;
+	padding : 10px;
+}
+
+#footer ul li a:visited, #footer ul li a:link {
+	color : sienna;
+	background : white;
+	font-size : 13px;
+	font-weight : bold;
+	padding : 10px;	
+}
+
+div p a:visited, div p a:link { 
+	color : sienna;
+	font-weight : bold;
+	text-decoration : underline;
+}
+
+div p a:hover { 
+	color : black;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+#footer ul li a:hover {
+	color : black;
+	text-decoration : underline;
+}
+
