@@ -1,0 +1,51 @@
+body {
+	margin : 10px 0px;
+}
+
+div {
+	width : 500px;
+	min-width : 60%;
+	margin: 0px auto 0px auto;
+	border : 1px solid red;
+	border-radius : 40px;
+	padding : 0px 30px 40px 30px;
+}
+
+div p {
+	text-align : justify;
+	font-size : 17px;
+	font-family : Times New Roman;
+	color : green;
+}
+
+p.p_red {
+	color : red;
+}
+
+p.p_green {
+	color : green;
+}
+
+p.p_author {
+	color : black;
+	text-align : right;
+	font-style : italic;
+	font-size : 11px;
+	font-family : Arial;
+	padding-right : 90px;
+}
+
+
+h1, h2 {
+	color : brown;
+}
+
+p a:link, h2 a:visited {
+	color : blue;
+	text-decoration : underline;
+}
+
+p a:hover {
+	color : green;
+	text-decoration : none;
+}
