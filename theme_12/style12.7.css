@@ -40,7 +40,7 @@ h1, h2 {
 	color : brown;
 }
 
-p a:link, h2 a:visited {
+p a:link, p a:visited {
 	color : blue;
 	text-decoration : underline;
 }
