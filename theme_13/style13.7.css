@@ -1,0 +1,50 @@
+div {
+	width: 700px;
+	border: 1px solid blue;
+	margin: 0px auto;
+}
+
+div ul {
+	display : flex;
+	flex-direction : row-reverse;
+	justify-content : flex-start;
+	padding : 0px;
+	margin : 0px;
+	background : dodgerblue;
+	align-items : center;
+}
+
+div ul li {
+	max-width : 110px;
+	list-style-type : none;
+	text-align : center;
+}
+
+div ul li a {
+	display : block;  
+	padding : 10px;
+	color : white;
+	text-decoration : none;
+	border : 1px solid blue;
+}
+
+div ul li:hover a {
+	color : dodgerblue;
+	background : white;
+}
+div ul li:hover {
+	color : dodgerblue;
+	background : white;
+}
+
+a:link, a:visited {
+	color : white;
+	background : dodgerblue;
+}
+
+a:hover {
+	color : dodgerblue;
+	background : white;
+}
+
+
