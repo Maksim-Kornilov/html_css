@@ -1,0 +1,44 @@
+#div_main {
+	width : 30%;
+	border : 1px solid blue;
+	margin : auto;
+	padding : 0px;
+}
+
+div ul {
+	margin : 0px;
+	padding : 0px;
+}
+
+div ul li {
+	list-style : none;
+}
+
+div ul li a {
+	display : block;
+	text-decoration : none;
+	color : white;
+	background-color : dodgerblue;
+	padding : 10px;
+	font-family : Times New Roman;
+	font-size : 15px;
+	border : 1px solid blue;
+}
+
+div ul li a:link, div ul li a:visited {
+	color : white;
+	background-color : dodgerblue;	
+}	
+
+div ul li a:hover {
+	color : dodgerblue;
+	background-color : white;	
+}
+
+
+
+
+
+
+
+
