@@ -1,0 +1,20 @@
+#wrapper {
+	width : 600px;
+	border : 1px solid maroon;
+	border-radius : 20px 20px 0px 0px;
+	margin : 0px auto 60px auto;
+	padding : 0px 20px 20px 20px;	
+	color : mediumvioletred;
+}
+
+#footer {
+	font-size : 20px;
+	color : white;
+	background-color : mediumvioletred;
+	text-align : center;
+	padding : 15px;
+	position : fixed;
+	bottom : 0px;
+	left : 0px;
+	width : 100%;
+}
