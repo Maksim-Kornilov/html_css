@@ -1,0 +1,44 @@
+#wrapper {
+	width: 1000px;
+	margin: 10px auto;
+}
+
+#header {
+	height : 200px;
+	margin-bottom : 20px;
+}
+
+#left {
+	width : 200px;	
+	float : left;
+}
+
+#left > div {
+	height : 200px;
+	outline : 1px solid black;
+	margin : 0px 0px 20px 20px;
+}
+
+#content {
+	height : 500px;
+	margin : 0px 220px;
+}
+
+#right {
+	height : 500px;
+	width : 200px;
+	float : right;
+}
+
+#clearfix {
+	clear : both;
+}
+
+#footer {
+	margin-top : 20px;
+	height : 200px;
+}
+
+#header, #content, #right, #footer, #wrapper {
+	outline: 1px solid black;
+}
