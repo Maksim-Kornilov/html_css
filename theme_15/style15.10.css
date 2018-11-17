@@ -1,0 +1,39 @@
+#wrapper {
+	width: 1000px;
+	margin: 0px auto;
+	min-width : 600px;
+	min-height : 900px;
+	outline : 1px solid black;
+	padding : 40px;
+}
+
+.left, .right {
+	width : 200px;
+	height : 200px;
+}
+
+.left {
+	float : left;
+}
+
+.right {
+	float : right;
+}
+
+.center {
+	margin : 0px 240px;
+	height : 200px;		
+}
+
+#mid > div {
+	height : 600px;
+}
+
+
+#header, #mid {
+	margin : 0px 0px 40px 0px;
+}
+
+.left, .center, .right {
+	outline : 1px solid black;
+}
