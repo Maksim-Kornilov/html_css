@@ -1,0 +1,19 @@
+#wrapper {
+	width : 600px;
+	border : 1px solid maroon;
+	margin : 60px auto 60px auto;
+	padding : 0px 20px 20px 20px;	
+	color : black;
+}
+
+#hut {
+	font-size : 20px;
+	color : white;
+	background-color : yellowgreen;
+	text-align : center;
+	padding : 15px;
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	width : 100%;
+}
