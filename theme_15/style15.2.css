@@ -1,0 +1,32 @@
+#wrapper {
+	width: 800px;
+	margin: 10px auto;
+}
+
+#header {
+	height : 200px;
+}
+
+#sidebar {
+	height : 400px;
+	width : 200px;	
+	float : left;
+}
+
+#content {
+	height : 400px;
+	width : 600px;
+	float : left;	
+}
+
+#footer {
+	height : 200px;
+}
+
+#clearfix {
+	clear : both;
+}
+
+#header, #content, #sidebar, #footer, #wrapper {
+	outline: 1px solid black;
+}
