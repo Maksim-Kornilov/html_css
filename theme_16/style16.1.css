@@ -1,0 +1,106 @@
+body {
+	margin : 0px;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0px auto;
+	border : 1px solid black;
+}
+
+#header {
+	margin : 0px;
+	height : 200px;
+}
+
+#header h2 {
+	display : inline-block;	
+	font-size : 19px;
+	margin : 10px 0px;
+}
+
+#menu {
+	outline : 1px solid black;
+	width : 530px;
+	margin-left : 200px;
+	
+}
+
+ul {
+	margin : 0px;
+	list-style : none;
+	padding : 0px 0px 0px 0px;
+	font-family : Times New Roman;
+	font-size : 15px;
+}
+
+ul li {
+	display : inline-block;
+	padding : 5px 20px 5px 0px;
+}
+
+#menu_end {
+	padding-right : 5px;
+}
+
+#menu_start {
+	padding-left : 5px;
+}
+
+ul li a:link, ul li a:visited {
+	color : blue;
+	text-decoration : none;
+}
+
+ul li a:hover, ul li a.active {
+	color : red;
+	text-decoration : underline;
+}
+
+#left {
+	float : left;
+	width : 200px;
+}
+
+img {
+	display : block;
+	width : 200px;
+	height : 180px;
+	margin : 10px 0px;	
+	float : left;
+}
+
+#right {
+	float : right;
+	width : 200px;	
+}
+
+#content {
+	margin : 0px 200px;
+	padding : 10px 20px;
+}
+
+#p-end {
+	margin-bottom : 0px;
+}
+
+#footer {
+	height : 200px;
+	postiton : relative;
+}
+
+#footer > div {
+	text-align : center;
+	font-weight : bold;
+	position : absolute;
+	border : 1px solid black;
+	top : 200px; left  : 200px;
+}
+
+#clearfix {
+	clear : both;
+}
+
+#header, #content, #footer {
+	outline: 1px solid black;
+}
