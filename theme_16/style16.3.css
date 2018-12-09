@@ -1,0 +1,92 @@
+body {
+	background-color : lightgray;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 30px auto;
+	background-color : white;
+}
+
+#header {
+	background-color : orange;
+}
+
+#header ul {
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+}
+
+#header ul li {
+	display : inline-block;
+	padding : 12px 15px;
+}
+
+ul li a:link, ul li a:visited {
+	color : white;
+	font-size : 19px;
+	text-decoration : none;
+}
+
+ul li a:hover, ul li a.active {
+	text-decoration : underline;
+}
+
+#right {
+	float : right;
+	width : 235px;
+	text-align : justify;
+	padding-right : 20px;
+}
+
+#right h2 {
+	font-size : 17px;
+}
+
+#right p {
+	font-size : 13px;
+}
+
+
+#content {
+	margin : 0px 260px 0px 0px;
+	padding : 10px 20px;
+	text-align : justify;
+}
+
+#content h1 {
+	margin : 0px;
+	font-size : 21px;
+}
+
+#content h2 {
+	margin-bottom : 10px;
+	font-size : 19px;
+}
+
+#price th, #price td {
+	border : 1px solid black;
+	text-align : center;
+}
+
+#price th.name, #price td.name {width: 250px;}
+#price th.price, #price td.price {width: 200px;}
+#price th.qty, #price td.qty {width: 160px;}
+
+#price th { background-color : lightgray;}
+
+#footer {
+	height : 80px;
+	position : relative;
+	background-color : orange;
+}
+
+#footer_text {
+	text-align : center;
+	position : absolute;
+	top : 30px; 
+	width : 100%;
+	font-size : 13px;
+	color : white;
+}
